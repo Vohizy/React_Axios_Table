@@ -1,0 +1,212 @@
+table {
+  width: 100%;
+  caption-side: bottom;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+table td,
+table th {
+  padding: 0.25rem;
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+
+table td:nth-child(1),
+table th:nth-child(1) {
+  width: 19%;
+}
+table td:nth-child(2),
+table th:nth-child(2) {
+  width: 29%;
+}
+
+table td:nth-child(3),
+table th:nth-child(3) {
+  width: 15%;
+}
+
+table td:nth-child(4),
+table th:nth-child(4) {
+  width: 8%;
+}
+
+table td:nth-child(5),
+table th:nth-child(5) {
+  width: 15%;
+}
+
+table td:nth-child(6),
+table th:nth-child(6) {
+  width: 11%;
+}
+
+.colspaned {
+  width: 100%;
+  text-align: center;
+}
+
+/* css of the modal */
+.container1{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.192);
+  width: 100%;
+}
+
+.container1 .animation{
+  position: relative;
+  margin: auto;
+  width: 35%;
+  height: 85vh;
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.animation #close{
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
+  background-color: rgba(13,110,253,255);
+  border-radius: 4px;
+  width: 100px;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+.animation #close:hover{
+  background-color: rgb(6, 77, 73);
+  transition: 0.5s;
+}
+.add-content{
+  float: right;
+  margin-right: 10px;
+  background-color: rgba(13,110,253,255);
+  border-radius: 4px;
+  width: 100px;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+.animation form{
+  margin-top: 7%;
+}
+.animation input{
+  width: 95%;
+  margin: 5px 20px 5px 5px;
+  padding: 1px 5px;
+  border: none;
+  border-bottom: 1px solid rgba(13,110,253,255);
+}
+
+.animation{
+  -webkit-animation: Zoom;
+  animation: Zoom 1.5s linear;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: rgba(13,110,253,255);
+  font-size: 35px;
+  font-weight: bold;
+}
+@-webkit-keyframes Zoom {
+  from{
+      -webkit-transform: scale(0);
+  }
+  to{
+      -webkit-transform: scale(1);
+  }
+}
+
+@keyframes Zoom {
+  from{
+      transform: scale(0);
+  }
+  to{
+      transform: scale(1);
+  }
+}
+
+table{
+  width: 100%;
+  box-shadow: 0 0 10px 0 black;
+}
+
+table th{
+  background-color: rgba(13,110,253,255);
+  padding: 13px;
+  text-align: center;
+  color: rgb(241, 235, 235);
+  border: 2px solid rgb(0, 0, 0);
+}
+table td{
+  padding: 10px 0;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+}
+/*  */
+
+.container2{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.192);
+  width: 100%;
+}
+
+.container2 .animation{
+  position: relative;
+  margin: auto;
+  margin-top: 10%;
+  z-index: 4;
+  width: 40%;
+  height: 85vh;
+  background-color: white;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.animation #close{
+  float: right;
+  margin-right: 15px;
+  margin-top: 15px;
+  background-color: rgba(13,110,253,255);
+  border-radius: 4px;
+  width: 100px;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+.animation #close:hover{
+  background-color: rgb(6, 6, 77);
+  transition: 1s;
+}
+.add-content{
+  background-color: rgba(13,110,253,255);
+  border-radius: 4px;
+  width: 100px;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+.animation input{
+  width: 100%;
+  margin: 5px 15px 5px 5px;
+  padding: 1px 5px;
+}
+.animation{
+  -webkit-animation: Zoom;
+  animation: Zoom 1.5s linear;
+}
